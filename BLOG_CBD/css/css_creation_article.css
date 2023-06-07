@@ -9,6 +9,9 @@ body{
     background-color: black;
     font-family: 'Roboto', sans-serif ;
 }
+main{
+    margin: 5% 10%;
+}
 
 #formulaire{
     display: flex;
@@ -19,6 +22,8 @@ body{
 }
 
 #fond{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     width: 100%;
 }

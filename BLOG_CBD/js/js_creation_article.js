@@ -1,8 +1,8 @@
-function boucle(){
-    for(let i = 1; i <= 10; i++){
-        carte();
-    }
-}
+// function boucle(){
+//     for(let i = 1; i <= 10; i++){
+//         carte();
+//     }
+// }
 
 function carte(){
     let input_un = document.getElementById('input1').value;
