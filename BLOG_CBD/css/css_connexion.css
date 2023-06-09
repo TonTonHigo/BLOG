@@ -8,12 +8,14 @@ body{
     font-family: 'Roboto', sans-serif;
     background-image: url(../images/fond_conex_inscri.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #connexion{
     position: absolute;
-    left: 35%;
-    top: 20%;
+    top:  45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 500px;
     height: 400px;
     color: white;
@@ -47,6 +49,11 @@ body{
 #submit{
     position: relative;
     left: 100%;
+    transition: 1s;
+}
+#submit:hover{    
+    color: white;
+    background-color: #157359;
 }
 #logo{
     margin-left: 50%;
