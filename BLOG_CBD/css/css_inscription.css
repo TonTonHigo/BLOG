@@ -13,10 +13,10 @@ body{
 
 #connexion{
     position: absolute;
-    top:  45%;
+    top:  35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
+    width: 700px;
     height: 400px;
     color: white;
     font-size: 30px;
@@ -56,7 +56,8 @@ body{
     background-color: #157359;
 }
 #logo{
-    padding-left: 80%;
+    padding-left: 10%;
+    padding-bottom: 25%;
 }
 
 .saisi:hover{
@@ -64,6 +65,7 @@ body{
     color: white;
     transition: 1s;
 }
+
 #mdpforgor{
     text-decoration: none;
     font-weight: bold;
