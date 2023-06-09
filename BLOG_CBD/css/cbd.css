@@ -102,7 +102,7 @@ br {
 
 
 h2 {
-       color: white;
+       color: #157359;
        text-align: left;
 
 }
@@ -149,5 +149,5 @@ p {
 .text {
     overflow: hidden; /* Empêche le texte de se superposer aux images */
     margin: 5%;
-
+    color: #0D619A;   
 }
