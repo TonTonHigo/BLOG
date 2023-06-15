@@ -362,8 +362,44 @@ footer{
 
 
 
-/* PAGES articles.html */
+/* Main Contact */
+contmain{
+    margin: 5% 20%;
+    display: flex;
+    justify-content: center;
+}
 
+#contformulaire{
+    color:#0D619A;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    width: 600px;
+}
+.continputtaille{
+    width: 300;
+    margin-bottom: 20px;
+}
+.continputcolor{
+    transition: 1s;
+}
+.continputcolor:hover{
+    background-color: #157359;
+    color: white;
+}
+#contbutton{
+    width: 100px;
+    color: #0D619A;
+    margin-top: 20px;
+    transition: 1s;
+}
+#contbutton:hover{
+    width: 100px;
+    color:  white;
+    margin-top: 20px;
+    background-color:  #157359;
+}
+/* PAGES articles.html */
 
 
 
