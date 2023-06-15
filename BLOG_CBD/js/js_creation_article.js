@@ -11,7 +11,7 @@ function carte(){
     let input_trois = document.getElementById('input3').value;
 
     const para = document.createElement("img");
-    para.setAttribute('id','image');
+    para.setAttribute('id','creaimage');
     const para2 = document.createElement("h2");
     const para3 = document.createElement("p");
 
@@ -20,7 +20,7 @@ function carte(){
     para2.innerHTML = input_deux;
     para3.innerHTML = input_trois;
 
-    document.getElementById("fond").appendChild(para);
-    document.getElementById("fond").appendChild(para2);
-    document.getElementById("fond").appendChild(para3);
+    document.getElementById("creafond").appendChild(para);
+    document.getElementById("creafond").appendChild(para2);
+    document.getElementById("creafond").appendChild(para3);
 }
