@@ -7,7 +7,7 @@ Typographie: 'Roboto', sans-serif */
 
 
 
-body{
+body {
     margin: 0;
     background-color: black;
     font-family: 'Roboto', sans-serif;
@@ -17,7 +17,7 @@ body{
 /* Styles pour les tablettes */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     #Icon {
-           display: none;
+        display: none;
     }
 
     /* Ajoutez vos styles spécifiques pour les tablettes ici */
@@ -26,26 +26,26 @@ body{
 /* Styles pour les téléphones mobiles */
 @media screen and (max-width: 767px) {
     #Icon {
-           width: 50px;
-           align-items: center;
-           position: absolute;
-           right: 10%;
+        width: 50px;
+        align-items: center;
+        position: absolute;
+        right: 10%;
     }
 
     /* Ajoutez vos styles spécifiques pour les téléphones mobiles ici */
     #decal li {
-           display: none;
+        display: none;
     }
 
     #post {
-           display: none;
+        display: none;
     }
 }
 
 
 @media screen and (min-width: 1200px) {
     #Icon {
-           display: none;
+        display: none;
     }
 
     /* Ajoutez vos styles spécifiques pour les écrans larges ici */
@@ -152,139 +152,158 @@ p {
 .image1,
 .image2,
 .image4 {
- float: left;
- margin-right: 10%;
- padding-top: 3%; 
+    float: left;
+    margin-right: 10%;
+    padding-top: 3%;
 }
 
 .text {
- overflow: hidden; /* Empêche le texte de se superposer aux images */
- margin: 5%;
- color: #0D619A;   
+    overflow: hidden;
+    /* Empêche le texte de se superposer aux images */
+    margin: 5%;
+    color: #0D619A;
 }
 
 
 
 /* HEADER */
-header 
-{  
-       background-image: url(../images/CBD.jpg);
-       height: 300px;
-       background-position: center;
-       background-size: cover;
-       padding: 1%;
+header {
+    background-image: url(../images/CBD.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    padding: 1%;
 }
 
-nav
-{
-       display: flex;
-       list-style-type: none; /* pas de puces */
-      
-} 
+nav {
+    display: flex;
+    list-style-type: none;
+    /* pas de puces */
 
-nav a 
-{
-       color: white;
-       text-decoration:none;        
-       text-shadow: 3px 3px 0 #000;
 }
 
-img 
-{
-       width: 100px; /* Modifier cette valeur pour définir la largeur souhaitée */
-       /*height: auto;  Cela permet de conserver les proportions de l'image */
+nav a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px 0 #000;
 }
 
-li
-{
-       
-       list-style-type: none; /* pas de puces */
+img {
+    width: 100px;
+    /* Modifier cette valeur pour définir la largeur souhaitée */
+    /*height: auto;  Cela permet de conserver les proportions de l'image */
 }
 
-#titre 
-{
-       color: white;
-       text-align: center;
-       text-shadow: 4px 4px 0 #000;
+li {
+
+    list-style-type: none;
+    /* pas de puces */
 }
 
-#post 
-{
-      margin-left: auto; 
-  
+#titre {
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 0 #000;
 }
 
-#decal
-{
-       display: flex;
-       gap: 10%;
+#post {
+    margin-left: auto;
+
+}
+
+#decal {
+    display: flex;
+    gap: 10%;
 }
 
 /* Styles pour les tablettes */
-@media screen and (min-width: 768px) and (max-width: 1199px)
-{     #Icon {
-              display: none;              
-       } /* Ajoutez vos styles spécifiques pour les tablettes ici */  
-}  
-/* Styles pour les téléphones mobiles */
-@media screen and (max-width: 767px)
-{      #Icon {
-              width: 50px;
-              align-items: center;
-              position: absolute;
-              right: 10%;
-       }/* Ajoutez vos styles spécifiques pour les téléphones mobiles ici */ 
-       #decal li {
-              display: none;
-       } 
-       #post {
-              display: none;
-       }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #Icon {
+        display: none;
+    }
+
+    /* Ajoutez vos styles spécifiques pour les tablettes ici */
 }
-@media screen and (min-width: 1200px)
-{     #Icon {
-              display: none;
-       }  /* Ajoutez vos styles spécifiques pour les écrans larges ici */  }
-       body {
-              font-family: 'Roboto', sans-serif;
-              margin: 0%;
-       }
-       header {
-              background-image: url(../images/CBD.jpg);
-              height: 300px;
-              background-position: center;
-              background-size: cover;
-              padding: 1%;
-       }
-       nav {
-              display: flex;
-              list-style-type: none;
-              /* pas de puces */                
-       }              
-       nav a {
-              color: white;
-              text-decoration: none;
-              /*pas de surligneur*/
-              text-shadow: 3px 3px 0 #000;
-       }      
-       img {
-              width: 100px;
-              /* Modifier cette valeur pour définir la largeur souhaitée */
-              /*height: auto;  Cela permet de conserver les proportions de l'image */
-       }
-       li {
-              list-style-type: none;
-              /* pas de puces */       }
-       h1 {
-              color: white;
-              text-align: center;
-              text-shadow: 4px 4px 0 #000;       }
-       #post {
-              margin-left: auto;       }
-       #decal {
-              display: flex;
-              gap: 10%;       }
-       
+
+/* Styles pour les téléphones mobiles */
+@media screen and (max-width: 767px) {
+    #Icon {
+        width: 50px;
+        align-items: center;
+        position: absolute;
+        right: 10%;
+    }
+
+    /* Ajoutez vos styles spécifiques pour les téléphones mobiles ici */
+    #decal li {
+        display: none;
+    }
+
+    #post {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Icon {
+        display: none;
+    }
+
+    /* Ajoutez vos styles spécifiques pour les écrans larges ici */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+header {
+    background-image: url(../images/CBD.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    padding: 1%;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    /* pas de puces */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    /*pas de surligneur*/
+    text-shadow: 3px 3px 0 #000;
+}
+
+img {
+    width: 100px;
+    /* Modifier cette valeur pour définir la largeur souhaitée */
+    /*height: auto;  Cela permet de conserver les proportions de l'image */
+}
+
+li {
+    list-style-type: none;
+    /* pas de puces */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 0 #000;
+}
+
+#post {
+    margin-left: auto;
+}
+
+#decal {
+    display: flex;
+    gap: 10%;
+}
+
 
 
 
@@ -300,34 +319,40 @@ li
 
 
 /* Main */
-main{
+main {
     margin: 1% 20%;
     background-image: url(images\CBD.jpg);
 }
-.articles{
+
+.articles {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 50px;
 }
-.bloctxt{
+
+.bloctxt {
     font-size: 20px;
 }
-#recents{
+
+#recents {
     text-align: center;
-    color: #157359 ;
+    color: #157359;
     font-size: 40px;
 }
-.imgsize{
+
+.imgsize {
     width: 300px;
     height: 200px;
     object-fit: cover;
 }
-.titreimg{
+
+.titreimg {
     color: #f5c159;
     margin-bottom: -4%;
 }
-.txtimg{
+
+.txtimg {
     color: #0D619A;
 }
 
@@ -335,22 +360,22 @@ main{
 
 /* bouton pour les article */
 
-.lire{
+.lire {
     color: rgb(8, 7, 7);
-    background-color: #f5c159 ;
+    background-color: #f5c159;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 1px solid;
     border-color: #0D619A;
 
 }
 
-.ctd{
+.ctd {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     text-decoration: underline;
 }
 
-.date{
+.date {
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -363,28 +388,31 @@ main{
 @media screen and (min-width: 1305px) {
 
     /* Ajoutez vos styles spécifiques pour les écrans larges ici */
-    .articles{
+    .articles {
         display: flex;
         justify-content: center;
     }
-    .bloctxt{
+
+    .bloctxt {
         margin-left: 5%;
     }
-    
+
 }
+
 @media screen and (max-width: 1304px) {
 
-       /* Ajoutez vos styles spécifiques pour les écrans larges ici */
+    /* Ajoutez vos styles spécifiques pour les écrans larges ici */
 
-       .articles{
+    .articles {
         justify-content: center;
         flex-wrap: wrap;
-        }
-        .bloctxt{
-            margin-top: 1%;
-            text-align: center;
-            margin-left: 0%;
-        }
+    }
+
+    .bloctxt {
+        margin-top: 1%;
+        text-align: center;
+        margin-left: 0%;
+    }
 }
 
 
@@ -395,7 +423,7 @@ main{
 
 
 /* mon footer */
-footer{ 
+footer {
     background-color: #0D619A;
     position: absolute;
     width: 100%;
@@ -406,7 +434,7 @@ footer{
 }
 
 /* .F c'est la div qui contient tout les lien du footer */
-.F{
+.F {
     display: flex;
     justify-content: space-between;
     /* flex-wrap: wrap; */
@@ -426,33 +454,33 @@ footer{
 }
 
 /* jai du faire un semblant de hr avec une div pour pouvoir donner la color black */
-#hr{
+#hr {
     width: 100%;
     height: 2px;
     background-color: #000;
 }
 
 /* .DL c'est la class de la div qui contient le copyright */
-.DL{
+.DL {
     font-size: 30px;
     text-align: center;
     color: rgb(0, 0, 0);
 }
 
 /* .foot h3 c'est pour viser le titre  */
-.foot h3{
+.foot h3 {
     text-align: center;
 }
 
 /* pour enlever la decoration */
-.foot ul{
+.foot ul {
     text-decoration: none;
     list-style: none;
     text-align: center;
     padding: 10px;
 }
 
-.foot li a{
+.foot li a {
     text-decoration: none;
     color: white;
     text-align: center;
@@ -464,7 +492,7 @@ footer{
     .foot {
         margin: 10px;
         width: 90%;
-        background-color: #f5c159 ;
+        background-color: #f5c159;
         color: #000000;
 
     }
@@ -474,10 +502,10 @@ footer{
 
     }
 
-    .foot li a{
+    .foot li a {
         color: #000;
     }
-    
+
     .DL {
         text-align: center;
         font-size: 20px;
@@ -505,41 +533,46 @@ footer{
 
 
 /* Main Contact */
-contmain{
+contmain {
     margin: 5% 20%;
     display: flex;
     justify-content: center;
 }
 
-#contformulaire{
-    color:#0D619A;
+#contformulaire {
+    color: #0D619A;
     display: flex;
     flex-direction: column;
     font-size: 30px;
     width: 600px;
 }
-.continputtaille{
+
+.continputtaille {
     width: 300;
     margin-bottom: 20px;
 }
-.continputcolor{
+
+.continputcolor {
     transition: 1s;
 }
-.continputcolor:hover{
+
+.continputcolor:hover {
     background-color: #157359;
     color: white;
 }
-#contbutton{
+
+#contbutton {
     width: 100px;
     color: #0D619A;
     margin-top: 20px;
     transition: 1s;
 }
-#contbutton:hover{
+
+#contbutton:hover {
     width: 100px;
-    color:  white;
+    color: white;
     margin-top: 20px;
-    background-color:  #157359;
+    background-color: #157359;
 }
 
 
@@ -549,12 +582,11 @@ contmain{
 
 /* css creation_article */
 
-#creamain{
+#creamain {
     margin: 5% 10%;
 }
 
-<<<<<<< HEAD
-#creaformulaire{
+<<<<<<< HEAD #creaformulaire {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -562,24 +594,27 @@ contmain{
     color: #f5c159;
 }
 
-#creafond{
+#creafond {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
 }
-#creaimage{
+
+#creaimage {
     margin-top: 5%;
     width: 300px;
 }
+
 =======
+
 /* bleu: #0D619A
 noir: #ffffff 
 vert: #157359 
 orange: #f5c159 
 Typographie: 'Roboto', sans-serif */
 /* PAGES D'ACCEUIL */
-body{
+body {
     margin: 0;
     background-color: black;
     font-family: 'Roboto', sans-serif;
@@ -587,123 +622,141 @@ body{
 
 
 /* HEADER */
-header 
-{  
-       background-image: url(../images/CBD.jpg);
-       height: 300px;
-       background-position: center;
-       background-size: cover;
-       padding: 1%;
+header {
+    background-image: url(../images/CBD.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    padding: 1%;
 }
 
-nav
-{
-       display: flex;
-       list-style-type: none; /* pas de puces */
-      
-} 
+nav {
+    display: flex;
+    list-style-type: none;
+    /* pas de puces */
 
-nav a 
-{
-       color: white;
-       text-decoration:none;        
-       text-shadow: 3px 3px 0 #000;
 }
 
-img 
-{
-       width: 100px; /* Modifier cette valeur pour définir la largeur souhaitée */
-       /*height: auto;  Cela permet de conserver les proportions de l'image */
+nav a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px 0 #000;
 }
 
-li
-{
-       
-       list-style-type: none; /* pas de puces */
+img {
+    width: 100px;
+    /* Modifier cette valeur pour définir la largeur souhaitée */
+    /*height: auto;  Cela permet de conserver les proportions de l'image */
 }
 
-#titre 
-{
-       color: white;
-       text-align: center;
-       text-shadow: 4px 4px 0 #000;
+li {
+
+    list-style-type: none;
+    /* pas de puces */
 }
 
-#postArticles
-{
-      margin-left: auto; 
-  
+#titre {
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 0 #000;
 }
 
-#decalArticles
-{
-       display: flex;
-       gap: 10%;
+#postArticles {
+    margin-left: auto;
+
+}
+
+#decalArticles {
+    display: flex;
+    gap: 10%;
 }
 
 /* Styles pour les tablettes */
-@media screen and (min-width: 768px) and (max-width: 1199px)
-{     #Icon {
-              display: none;              
-       } /* Ajoutez vos styles spécifiques pour les tablettes ici */  
-}  
-/* Styles pour les téléphones mobiles */
-@media screen and (max-width: 767px)
-{      #Icon {
-              width: 50px;
-              align-items: center;
-              position: absolute;
-              right: 10%;
-       }/* Ajoutez vos styles spécifiques pour les téléphones mobiles ici */ 
-       #decal li {
-              display: none;
-       } 
-       #post {
-              display: none;
-       }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #Icon {
+        display: none;
+    }
+
+    /* Ajoutez vos styles spécifiques pour les tablettes ici */
 }
-@media screen and (min-width: 1200px)
-{     #Icon {
-              display: none;
-       }  /* Ajoutez vos styles spécifiques pour les écrans larges ici */  }
-       body {
-              font-family: 'Roboto', sans-serif;
-              margin: 0%;
-       }
-       header {
-              background-image: url(../images/CBD.jpg);
-              height: 300px;
-              background-position: center;
-              background-size: cover;
-              padding: 1%;
-       }
-       nav {
-              display: flex;
-              list-style-type: none;
-              /* pas de puces */                
-       }              
-       nav a {
-              color: white;
-              text-decoration: none;
-              /*pas de surligneur*/
-              text-shadow: 3px 3px 0 #000;
-       }      
-       img {
-              width: 100px;
-              /* Modifier cette valeur pour définir la largeur souhaitée */
-              /*height: auto;  Cela permet de conserver les proportions de l'image */
-       }
-       li {
-              list-style-type: none;
-              /* pas de puces */       }
-       h1 {
-              color: white;
-              text-align: center;
-              text-shadow: 4px 4px 0 #000;       }
-       #post {
-              margin-left: auto;       }
-       #decal {
-              display: flex;
-              gap: 10%;       }
-       
->>>>>>> refs/remotes/origin/main
+
+/* Styles pour les téléphones mobiles */
+@media screen and (max-width: 767px) {
+    #Icon {
+        width: 50px;
+        align-items: center;
+        position: absolute;
+        right: 10%;
+    }
+
+    /* Ajoutez vos styles spécifiques pour les téléphones mobiles ici */
+    #decal li {
+        display: none;
+    }
+
+    #post {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #Icon {
+        display: none;
+    }
+
+    /* Ajoutez vos styles spécifiques pour les écrans larges ici */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+header {
+    background-image: url(../images/CBD.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    padding: 1%;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    /* pas de puces */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    /*pas de surligneur*/
+    text-shadow: 3px 3px 0 #000;
+}
+
+img {
+    width: 100px;
+    /* Modifier cette valeur pour définir la largeur souhaitée */
+    /*height: auto;  Cela permet de conserver les proportions de l'image */
+}
+
+li {
+    list-style-type: none;
+    /* pas de puces */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 0 #000;
+}
+
+#post {
+    margin-left: auto;
+}
+
+#decal {
+    display: flex;
+    gap: 10%;
+}
+
+>>>>>>>refs/remotes/origin/main
