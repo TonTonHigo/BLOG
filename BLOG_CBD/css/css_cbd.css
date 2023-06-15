@@ -165,16 +165,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* HEADER */
 header 
 {  
@@ -557,8 +547,32 @@ contmain{
 
 /* PAGES articles.html */
 
+/* css creation_article */
 
+#creamain{
+    margin: 5% 10%;
+}
 
+<<<<<<< HEAD
+#creaformulaire{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    color: #f5c159;
+}
+
+#creafond{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+#creaimage{
+    margin-top: 5%;
+    width: 300px;
+}
+=======
 /* bleu: #0D619A
 noir: #ffffff 
 vert: #157359 
@@ -692,3 +706,4 @@ li
               display: flex;
               gap: 10%;       }
        
+>>>>>>> refs/remotes/origin/main
