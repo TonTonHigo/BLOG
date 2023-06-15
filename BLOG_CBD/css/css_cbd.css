@@ -586,7 +586,7 @@ contmain {
     margin: 5% 10%;
 }
 
-<<<<<<< HEAD #creaformulaire {
+HEAD #creaformulaire {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -606,7 +606,7 @@ contmain {
     width: 300px;
 }
 
-=======
+
 
 /* bleu: #0D619A
 noir: #ffffff 
@@ -758,5 +758,3 @@ h1 {
     display: flex;
     gap: 10%;
 }
-
->>>>>>>refs/remotes/origin/main
